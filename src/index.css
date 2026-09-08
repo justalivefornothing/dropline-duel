@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@fontsource-variable/league-spartan";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/700.css";
+
+@theme {
+  --font-display: "League Spartan Variable", "Arial Black", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #05082a;
+  color: #fff7d6;
+  font-family: var(--font-display);
+}
