@@ -1,17 +1,18 @@
 # Dropline Duel
 
-Connect-Four against a minimax alpha-beta AI with a live search tree visualization.
+Connect-Four against a minimax alpha-beta AI with a live search-depth slider and evaluation bar.
 
 ## Features
 
 - Classic Connect-Four rules
-- Minimax + alpha-beta AI opponent
-- Live search-tree / evaluation display
-- Clean, responsive UI
+- Minimax + alpha-beta pruning
+- Adjustable search depth
+- Visible evaluation bar / search feedback
+- Responsive board UI
 
-## Status
+## Run
 
-See `PLAN.md` (if present) for remaining work. Core game + AI scaffolding is in place.
+Open the app via the project’s static entry (or `npm run dev` if a Vite package is present).
 
 ## License
 
